@@ -26,5 +26,36 @@ project_supportfiles-main/
 ├── stego.py          # Main Python script
 ├── mypic.jpg         # Image file (used for embedding message)
 └── README.md         # (This file)
-```markdown
+```
+## ⚙️ Setup Instructions
+Clone or download the project folder.
 
+Place your image (mypic.jpg) inside the project folder.
+
+Install OpenCV library if not already installed:
+
+
+pip install opencv-python
+Run the script:
+
+
+python stego.py
+Enter your secret message and passcode when prompted.
+
+## 🖥️ How It Works
+The program reads the image using cv2.imread.
+
+The message is embedded pixel-by-pixel into the RGB channels.
+
+A password is required to encrypt and decrypt the message.
+
+The encrypted image is saved as encryptedImage.jpg.
+
+Decryption works only with the correct passcode.
+
+## ⚠️ Important Notes
+Ensure that mypic.jpg exists in the same directory as stego.py.
+
+If the image is missing or the path is incorrect, you will get a NoneType error.
+
+Keep the secret message short relative to the image size (very large messages can cause errors).

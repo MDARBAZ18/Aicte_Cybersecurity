@@ -15,7 +15,7 @@ Minimal visual distortion to the image.
 
 Simple, lightweight, and fast.
 
-# 🛠️ Requirements
+```(# 🛠️ Requirements
 Python 3.x installed
 
 Required Python library:
@@ -69,4 +69,4 @@ Ensure that mypic.jpg exists in the same directory as stego.py.
 If the image is missing or path is incorrect, you will get a NoneType error.
 
 Keep the secret message short relative to image size (very large messages can cause errors).
-
+)

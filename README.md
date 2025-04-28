@@ -21,7 +21,7 @@ Python 3.x installed
 Required Python library:
 
 ```(
-pip install opencv-python)
+pip install opencv-python)```
 📂 Project Structure
 bash
 Copy

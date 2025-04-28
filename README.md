@@ -32,7 +32,7 @@ Edit
 │
 ├── stego.py          # Main Python script
 ├── mypic.jpg         # Image file (used for embedding message)
-└── README.md         # (This file) )
+└── README.md         # (This file) 
 ⚙️ Setup Instructions
 Clone/download the project folder.
 

@@ -1,10 +1,10 @@
 # Steganography using Python (cv2)
-```bash ✨ Project Description
+# ✨ Project Description
 This project securely hides a secret message inside an image using pixel value manipulation.
 It ensures that only users with the correct passcode can decrypt and retrieve the hidden message.
 The encryption does not cause any visible change to the image, maintaining secrecy.
 
-bash # 🚀 Features
+# 🚀 Features
 Hide a custom secret message inside an image.
 
 Protect the message with a passcode.
@@ -15,15 +15,13 @@ Minimal visual distortion to the image.
 
 Simple, lightweight, and fast.
 
-bash # 🛠️ Requirements
+# 🛠️ Requirements
 Python 3.x installed
 
 Required Python library:
 
-bash
-Copy
-Edit
-pip install opencv-python
+```(
+pip install opencv-python)
 📂 Project Structure
 bash
 Copy
@@ -38,7 +36,7 @@ Clone or download the project folder.
 
 Place your image (mypic.jpg) inside the project folder.
 
-bash Install OpenCV library if not already installed:
+Install OpenCV library if not already installed:
 
 bash
 Copy
@@ -52,7 +50,7 @@ Edit
 python stego.py
 Enter your secret message and passcode when prompted.
 
-bash 🖥️ How It Works
+🖥️ How It Works
 The program reads the image using cv2.imread.
 
 The message is embedded pixel-by-pixel into the RGB channels.

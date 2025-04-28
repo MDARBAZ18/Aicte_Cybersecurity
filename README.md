@@ -38,10 +38,10 @@ project_supportfiles-main/
 pip install opencv-python
 ```
 Run the script:
-
-
--python stego.py
-Enter your secret message and passcode when prompted.
+```
+python stego.py
+```
+- Enter your secret message and passcode when prompted.
 - example test
 
 ## 🖥️ How It Works

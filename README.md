@@ -18,3 +18,12 @@ The encryption does not cause any visible change to the image, maintaining secre
 ### Required Python library:
 ```bash
 pip install opencv-python
+```
+## 📂 Project Structure
+```markdown
+project_supportfiles-main/
+│
+├── stego.py          # Main Python script
+├── mypic.jpg         # Image file (used for embedding message)
+└── README.md         # (This file)
+```markdown

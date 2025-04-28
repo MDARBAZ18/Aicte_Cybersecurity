@@ -1,4 +1,4 @@
-# Image-based Encryption and Decryption
+# SECURE THE DATA TO PREVENT HACKERS
 
 ## Overview
 This project demonstrates a simple image-based encryption and decryption system. It hides a secret message in an image and allows the message to be decrypted with the correct passcode. The system combines basic cryptography and steganography principles.

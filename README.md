@@ -19,13 +19,10 @@ Simple, lightweight, and fast.
 Python 3.x installed
 
 Required Python library:
+```bash
+pip install opencv-python
+# 📂 Project Structure
 
-```(
-pip install opencv-python)```
-📂 Project Structure
-bash
-Copy
-Edit
 project_supportfiles-main/
 │
 ├── stego.py          # Main Python script
@@ -38,19 +35,15 @@ Place your image (mypic.jpg) inside the project folder.
 
 Install OpenCV library if not already installed:
 
-bash
-Copy
-Edit
+
 pip install opencv-python
 Run the script:
 
-bash
-Copy
-Edit
+
 python stego.py
 Enter your secret message and passcode when prompted.
 
-🖥️ How It Works
+# 🖥️ How It Works
 The program reads the image using cv2.imread.
 
 The message is embedded pixel-by-pixel into the RGB channels.
@@ -61,7 +54,7 @@ The encrypted image is saved as encryptedImage.jpg.
 
 Decryption works only with the correct passcode.
 
-⚠️ Important Notes
+# ⚠️ Important Notes
 Ensure that mypic.jpg exists in the same directory as stego.py.
 
 If the image is missing or the path is incorrect, you will get a NoneType error.

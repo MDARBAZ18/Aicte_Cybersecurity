@@ -15,7 +15,7 @@ Minimal visual distortion to the image.
 
 Simple, lightweight, and fast.
 
-```(# 🛠️ Requirements
+# 🛠️ Requirements
 Python 3.x installed
 
 Required Python library:
@@ -24,7 +24,7 @@ bash
 Copy
 Edit
 pip install opencv-python
-# 📂 Project Structure
+```(# 📂 Project Structure
 bash
 Copy
 Edit
@@ -32,7 +32,7 @@ project_supportfiles-main/
 │
 ├── stego.py          # Main Python script
 ├── mypic.jpg         # Image file (used for embedding message)
-└── README.md         # (This file)
+└── README.md         # (This file))
 ⚙️ Setup Instructions
 Clone/download the project folder.
 
@@ -69,4 +69,4 @@ Ensure that mypic.jpg exists in the same directory as stego.py.
 If the image is missing or path is incorrect, you will get a NoneType error.
 
 Keep the secret message short relative to image size (very large messages can cause errors).
-)
+

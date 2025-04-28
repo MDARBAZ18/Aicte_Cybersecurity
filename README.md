@@ -1,4 +1,4 @@
-# AICTE Cybersecurity Project
+# AICTE Cybersecurity Internship
 
 ## Overview
 This project focuses on various aspects of **Cybersecurity**, covering essential topics like **Steganography**, **Phishing Attacks**, **Cloud Security**, **Firewalls**, **Network Security**, and **Cryptography**. Additionally, we explore how Python libraries can be used to implement and learn about these security concepts. The project aims to provide a hands-on understanding of these critical cybersecurity domains.

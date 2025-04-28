@@ -24,15 +24,15 @@ bash
 Copy
 Edit
 pip install opencv-python
-```(# 📂 Project Structure
+# 📂 Project Structure
 bash
 Copy
 Edit
-project_supportfiles-main/
+```(project_supportfiles-main/
 │
 ├── stego.py          # Main Python script
 ├── mypic.jpg         # Image file (used for embedding message)
-└── README.md         # (This file))
+└── README.md         # (This file) )
 ⚙️ Setup Instructions
 Clone/download the project folder.
 

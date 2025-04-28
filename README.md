@@ -22,7 +22,7 @@ Required Python library:
 ```bash
 pip install opencv-python
 # 📂 Project Structure
-
+```bash 
 project_supportfiles-main/
 │
 ├── stego.py          # Main Python script

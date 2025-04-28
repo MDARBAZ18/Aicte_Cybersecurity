@@ -19,8 +19,8 @@ Simple, lightweight, and fast.
 Python 3.x installed
 
 Required Python library:
-```bash
-pip install opencv-python
+```(
+pip install opencv-python```)
 # 📂 Project Structure
 ```bash 
 project_supportfiles-main/

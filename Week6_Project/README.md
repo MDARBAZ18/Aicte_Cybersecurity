@@ -21,16 +21,16 @@ pip install opencv-python
 ``` 
 ## 📂 Project Structure
 ```
-project_supportfiles-main/
+Week6_Project/
 │
 ├── stego.py          # Main Python script
-├── mypic.jpg         # Image file (used for embedding message)
+├── mypic.jpg         # Sample image file (used for embedding message)
 └── README.md         # (This file)
 ```
 ## ⚙️ Setup Instructions
 Clone or download the project folder.
 
-Place your image (mypic.jpg) inside the project folder.
+A sample image (mypic.jpg) is already included in the project folder for testing.
 
 - Install OpenCV library if not already installed:
 ```

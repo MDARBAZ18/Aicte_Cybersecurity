@@ -40,3 +40,15 @@ To get started with the project, you'll need to have **Python 3.x** installed. F
 3. Install the required libraries:
    ```bash
    pip install opencv-python pycryptodome scapy requests
+   ```
+
+## Sample Images
+
+Each week's project folder now includes sample images for testing and demonstration purposes:
+
+- **Week3_Project/sample_image.jpg** - Blue gradient sample image for steganography demonstrations
+- **Week4_Project/sample_image.jpg** - Red gradient sample image for steganography demonstrations  
+- **Week5_Project/mypic.jpg** - Green gradient sample image for steganography demonstrations
+- **Week6_Project/mypic.jpg** - Original sample image for steganography demonstrations
+
+These images are pre-configured in the respective `stego.py` scripts and are ready to use for learning and testing steganography techniques

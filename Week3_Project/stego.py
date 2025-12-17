@@ -2,7 +2,7 @@ import cv2
 import os
 import string
 
-img = cv2.imread(r"C:\Users\mohda\OneDrive\Pictures\Screenshots\Screenshot 2025-04-28 155431.png") # Replace with the correct image path#image
+img = cv2.imread("sample_image.jpg") # Sample image for steganography demonstration
 
 msg = input("Enter secret message:")
 password = input("Enter a passcode:")
@@ -32,7 +32,7 @@ n = 0
 m = 0
 z = 0
 
-pas = input("Enter passcode for Decryption")
+pas = input("Enter passcode for Decryption: ")
 if password == pas:
     for i in range(len(msg)):
         message = message + c[img[n, m, z]]

@@ -2,7 +2,7 @@ import cv2
 import os
 import string
 
-img = cv2.imread("D:\AICTE CYBERSECURITY\project_supportfiles-main\project_supportfiles-main\mypic.jpg") # Replace with the correct image path
+img = cv2.imread("mypic.jpg") # Sample image for steganography demonstration
 
 msg = input("Enter secret message:")
 password = input("Enter a passcode:")
@@ -32,7 +32,7 @@ n = 0
 m = 0
 z = 0
 
-pas = input("Enter passcode for Decryption")
+pas = input("Enter passcode for Decryption: ")
 if password == pas:
     for i in range(len(msg)):
         message = message + c[img[n, m, z]]

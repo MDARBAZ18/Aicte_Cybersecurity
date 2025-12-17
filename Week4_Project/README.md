@@ -23,12 +23,12 @@ This project demonstrates a simple image-based encryption and decryption system.
 ### Usage
 - Clone the repository or download the code files.
 
-- Place an image in the correct path (use the full path if necessary).
+- A sample image (`sample_image.jpg`) is already included in this folder for testing.
 
 - Run the script:
 
 ```bash
-python encrypt_decrypt.py
+python stego.py
 ```
 - Enter the secret message and password when prompted.
 
